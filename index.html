@@ -20,11 +20,7 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <style>
-        .font-manrope{
-            font-family: 'Manrope', sans-serif;
-        }
-    </style>
+    
      <!-- font awesome link -->
      <script src="https://kit.fontawesome.com/caa1c3b435.js" crossorigin="anonymous"></script>
 
@@ -42,6 +38,15 @@
           }
         }
       </script>
+      <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+        p{
+            color: paragraph-color;
+        }
+
+    </style>
   </head>
   <body class="font-manrope container mx-auto">
     <header>
@@ -135,6 +140,7 @@
 
     </header>
     <main class="my-12">
+
        <!-- club section start -->
        <section>
                <div class="section-heading space-y-3 text-center">
@@ -184,6 +190,49 @@
                     </div>
                   </div>
                </div>
+       </section>
+
+       <!-- program sections starts -->
+
+       <section class="my-12">
+        <div class="section-heading space-y-3 text-center">
+            <h2 class="text-heading-color  text-xl lg:text-3xl font-bold">Program Sections</h2>
+            <p class="lg:font-semibold font-lg text-paragraph-color text-sm">Our club arranges 3 category program like junior Program, Teenager <br> Program and Professional Program </p>
+      </div>
+         <div class="category my-4">
+             <div class="lg:flex mb-3 gap-5 items-center justify-center">
+
+               
+                   <div class="relative mb-3">
+                    <div class="space-y-3 absolute top-12 left-8">
+                        <h2 class="text-[#FFF] text-3xl font-bold">junior Program</h2>
+                        <p class="text-xs lg:text-sm text-white mb-7">Our Club arrange junior Hockey tournament <br> under 12 years.Many teams are participated <br> in this tournaments from every   state of our country</p>
+    
+                        <button class="bg-btn-bg text-white px-2 py-2  rounded-lg">Register Now!</button>
+                    </div>
+                       <img src="./Images/2.png" alt="">
+                   </div>
+                   <div class="relative">
+                    <div class="space-y-3 absolute top-12 left-8">
+                        <h2 class="text-[#FFF] text-3xl font-bold">Teenager Program</h2>
+                        <p class="text-xs lg:text-sm text-white mb-7">Our Club arrange Teenager Hockey tournament <br> under 19 years.Many teams are participated <br> in this tournaments from every   state of our country</p>
+    
+                        <button class="bg-btn-bg text-white px-2 py-2  rounded-lg">Register Now!</button>
+                    </div>
+                      <img src="./Images/3.png" alt="">
+                   </div>
+             </div>
+         </div>
+
+         <div class="lg:flex flex h-[300px] lg:h-full justify-center relative">
+            <div class="space-y-3 absolute left-5 bottom-2 lg:bottom-9 lg:left-44">
+                <h2 class="text-[#FFF] text-xl lg:text-3xl font-bold">Teenager Program</h2>
+                <p class="text-xs lg:text-sm text-white mb-7">Our Club arrange Teenager Hockey tournament <br> under 19 years.Many teams are participated <br> in this tournaments from every   state of our country</p>
+
+                <button class="bg-btn-bg text-white px-2 py-2  rounded-lg">Register Now!</button>
+            </div> 
+            <img src="./Images/4.png" alt="">
+         </div>
        </section>
 
     </main>
